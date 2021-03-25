@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ToDo" representedClassName="ToDo" syncable="YES" codeGenerationType="class">
+        <attribute name="coffeeQuantity" optional="YES" attributeType="String"/>
+        <attribute name="coffeeSize" optional="YES" attributeType="String"/>
+        <attribute name="coffeeType" optional="YES" attributeType="String"/>
+        <attribute name="orderDateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="orderID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="orderID"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="ToDo" positionX="-45" positionY="0" width="128" height="104"/>
+    </elements>
+</model>
